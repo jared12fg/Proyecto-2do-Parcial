@@ -1,0 +1,82 @@
+.menu-section {
+    margin-bottom: 35px;
+    padding: 20px;
+    box-shadow: 0 0 100px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+  
+
+.task-subsection,
+.reminder-subsection {
+    padding: 15px;
+    margin: 10px 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.calendar-section {
+    padding: 15px;
+    margin: 10px 0;
+    display: flex;
+    flex-direction: column;
+    width: 80%; 
+}
+
+.react-calendar {
+    width: 100%; 
+}
+  
+
+.task-subsection > h3,
+.reminder-subsection > h3 {
+    box-shadow: none;
+}
+  
+
+.task-section,
+.reminder-section {
+    flex: 1;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.task-section:hover{
+    cursor: pointer;
+}
+
+.menu-button {
+    text-align: center;
+    padding-bottom: 20px;
+}
+.color{
+    color: blue;
+}
+.enlaces{
+    text-decoration: none;
+    color: black;
+}
+
+.notificaciones{
+    color: blue;
+    text-align: end; 
+    padding: 25px;
+    font-size: 40px;
+}
+.noti:hover{
+    cursor: pointer;
+}
+
+.pendiente{
+    border: 2px solid rgb(255, 61, 61);
+    color: rgb(255, 61, 61);
+}
+.proceso{
+    border: 2px solid rgb(246, 255, 0);
+    color: rgb(246, 255, 0);
+}
+.terminado{
+    border: 2px solid rgb(30, 255, 0);
+    color: rgb(30, 255, 0);
+}
